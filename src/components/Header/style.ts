@@ -35,7 +35,7 @@ export const Headers = styled.header`
 export const NavHeader = styled.nav<IStyledBurger>`
   display: flex;
   flex-flow: column nowrap;
-  background-color: var(--color-grey-900);
+  background-color: var(--color-primary);
   border: 1px solid black;
   position: fixed;
   top: 0;
@@ -47,6 +47,7 @@ export const NavHeader = styled.nav<IStyledBurger>`
   padding-left: 16px;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   transition: transform 0.3s ease-in-out;
+  z-index: 1;
 
   & a {
     color: white;

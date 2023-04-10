@@ -5,7 +5,9 @@ export const Header = () => {
   return (
     <Headers id="header">
       <div>
-        <h2>Portifolio</h2>
+        <a href="#header">
+          <h2>Portfólio</h2>
+        </a>
       </div>
       <Burger />
     </Headers>

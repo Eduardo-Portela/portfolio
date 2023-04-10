@@ -123,7 +123,6 @@ export const Skills = styled.section`
     justify-content:center;
 
     div{
-    position: relative;
     text-align: center;
     background-color: #212121;
     width: 8rem;
