@@ -3,7 +3,7 @@ import { Burger } from "./burger";
 
 export const Header = () => {
   return (
-    <Headers>
+    <Headers id="header">
       <div>
         <h2>Portifolio</h2>
       </div>

@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #13131f;
     }
 
+
     button{
         cursor: pointer;
     }
@@ -33,10 +34,11 @@ export const GlobalStyle = createGlobalStyle`
 }
 
     :root {
-        --color-primary:   #a62533;
-        --color-secondary: #B33F00;
+        --color-primary:   #13131f;
+        --color-secondary: #2de4d1;
+        --color-tertiary: #7c3ccc;
         --color-negative:  #E60000;
-
+        
         --color-grey-100:  #212529;
         --color-grey-200:  #343B41;
         --color-grey-300:  #868E96;

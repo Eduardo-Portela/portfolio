@@ -8,10 +8,10 @@ interface INavBar {
 export const NavBar = ({ open }: INavBar) => {
   return (
     <NavHeader open={open}>
-      <a href="#">Sobre</a>
-      <a href="#">Habilidades</a>
-      <a href="#">Projetos</a>
-      <a href="#">Contatos</a>
+      <a href="#header">Sobre</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contacts">Contatos</a>
     </NavHeader>
   );
 };

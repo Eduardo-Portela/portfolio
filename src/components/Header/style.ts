@@ -6,7 +6,6 @@ export const Headers = styled.header`
   justify-content: space-between;
   height: 65px;
   h2 {
-    padding-left: 24px;
     color: white;
   }
 
@@ -19,7 +18,6 @@ export const Headers = styled.header`
     justify-content: space-between;
     border-bottom: 2px solid #f1f1f1;
     color: white;
-    padding-left: 32px;
     height: 65px;
 
     h2 button {
@@ -55,9 +53,13 @@ export const NavHeader = styled.nav<IStyledBurger>`
   }
 
   @media (min-width: 800px) {
+    position: relative;
     display: flex;
+    justify-content: flex-end;
+    gap: 48px; 
     flex-flow: row nowrap;
-    width: 50%;
+    top:0;
+    min-width: 30%;
     height: 65px;
     border: none;
     align-items: center;
