@@ -11,6 +11,9 @@ import pet_info from "../../assets/projects/pet_info.png";
 import tech_posters from "../../assets/projects/tech_posters.png";
 import git_search from "../../assets/projects/git_search.png";
 import nu_kenzie from "../../assets/projects/nu_kenzie.png";
+import api_js from "../../assets/projects/api_img.png";
+import api_python from "../../assets/projects/api_img2.jpeg";
+
 
 export const Container = styled.div`
     max-width: 90%;
@@ -193,8 +196,19 @@ export const AllProjects = styled.div`
         transition: 1s;
     }
 
+    .kimoveis{
+        background-image: url(${api_js});
+        background-position: -100px;
+        transition: 1s;
+    }
+
     .web_women{
         background-image: url(${web_women});
+        transition: 1s;
+    }
+
+    .pet_kare{
+        background-image: url(${api_python});
         transition: 1s;
     }
 
@@ -300,7 +314,7 @@ export const DivTop = styled.section`
         border-radius: 8px;
     }
 
-    .eazy_home:hover > &, .web_women:hover > &, .tech_sell:hover > &, .hamburgueria:hover > &, .git_search:hover > &, .kenzie_empresas:hover > &,
+    .eazy_home:hover > &, .kimoveis:hover > &, .pet_kare:hover > &, .web_women:hover > &, .tech_sell:hover > &, .hamburgueria:hover > &, .git_search:hover > &, .kenzie_empresas:hover > &,
     .kenzie_hub:hover > &, .kenzie_pets:hover > &, .open_music:hover > &, .pet_info:hover > &, .tech_posters:hover > &, .nu_kenzie:hover > &{
         display: flex;
     }

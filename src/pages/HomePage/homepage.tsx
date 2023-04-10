@@ -120,6 +120,20 @@ export const HomePage = () => {
                        </p>
                   </ProjectInfo>
 
+                  <ProjectInfo>
+                    <div className="kimoveis">
+                      <DivTop id="top">
+                          <a href="https://github.com/Eduardo-Portela/m4-t14-kimoveis-eduardo-portela" target="blank"><button>Repositório</button></a>
+                      </DivTop>
+                    </div>
+                    <h3>API KImoveis</h3>
+                    <p> É uma API de uma imobiliária que tem como objetivo fazer um CRUD de usuários,
+                       fazer login gerando token de autenticação
+                       e também cadastrar imóveis e fazer agendamentos de visitas.
+                       Tudo com testes automatizados e muitas tratativas de erros.
+                       </p>
+                  </ProjectInfo>
+
                 <ProjectInfo>
                 <div className="nu_kenzie">
                       <DivTop id="top">
@@ -135,6 +149,21 @@ export const HomePage = () => {
                     sendo possível cadastrar seus gastos e ganhos tendo assim um controle maior das suas finanças.
                   </p>                 
                 </ProjectInfo>
+
+                <ProjectInfo>
+                    <div className="pet_kare">
+                      <DivTop id="top">
+                          <a href="https://github.com/Eduardo-Portela/m5-pet-kare-template--Eduardo-Portela" target="blank"><button>Repositório</button></a>
+                      </DivTop>
+                    </div>
+                    <h3>Pet-Kare</h3>
+                    <p>O pet-kare é uma API feita usando a linguagem 
+                      Python, utilizando o django e o Django-rest-framework
+                      para fazer um CRUD utilizando serializer para tratar os dados das requisições
+                      e com tratativas de erros.
+                       </p>
+                  </ProjectInfo>
+
                 <ProjectInfo>
                 <div className="kenzie_hub">
                       <DivTop id="top">
